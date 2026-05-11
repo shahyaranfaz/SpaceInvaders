@@ -1,6 +1,6 @@
 # Space Invaders
 
-A Python recreation of the classic arcade game, built with Pygame. Made by both [Averi Wylie] and [Shahyar Anfaz].(https://www.linkedin.com/in/shahyaranfaz/).
+A Python recreation of the classic arcade game, built with Pygame. Made by both Averi Wylie and Shahyar Anfaz.(https://www.linkedin.com/in/shahyaranfaz/).
 
 The game features fully custom graphics, 8-directional player movement, dynamic enemy spawning, a power-up system, and a complete user system with leaderboards, personal profiles, and friends — all backed by a local SQLite database.
 

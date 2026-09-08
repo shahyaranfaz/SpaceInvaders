@@ -40,13 +40,19 @@ Scores are stored in a local SQLite database (`assets/scores.db`). The "global" 
 ### Installation
 
 ```bash
-git clone https://github.com/AveriWylie/Project-1---Space-Invaders.git
-cd Project-1---Space-Invaders
-pip install pygame
+git clone https://github.com/shahyaranfaz/SpaceInvaders.git
+cd SpaceInvaders
+python -m pip install -r requirements.txt
 python application.py
 ```
 
 The database is created automatically at `assets/scores.db` on first run. No setup required.
+
+### Tests
+
+```bash
+python -m unittest discover -s tests -v
+```
 
 ---
 
@@ -109,4 +115,4 @@ Space-Invaders/
 
 ## License
 
-MIT License. See [LICENSE](https://github.com/AveriWylie/Project-1---Space-Invaders/blob/main/LICENSE) for details.
+MIT License. See [LICENSE](LICENSE) for details.

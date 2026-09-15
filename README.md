@@ -4,6 +4,12 @@ A Python recreation of the classic arcade game, built with Pygame. Made by both 
 
 The game features fully custom graphics, 8-directional player movement, dynamic enemy spawning, a power-up system, and a complete user system with leaderboards, personal profiles, and friends — all backed by a local SQLite database.
 
+## Gameplay Demo
+
+![Space Invaders gameplay demo](assets/demos/gameplay-demo.gif)
+
+[Watch the higher-quality MP4 demo](assets/demos/gameplay-demo.mp4)
+
 ---
 
 ## Features
@@ -101,6 +107,8 @@ Space-Invaders/
 │   ├── character_icons/    # Directional spaceship sprites
 │   ├── token_icons/        # Score, ammo, and power-up token sprites
 │   ├── fonts/              # Game and logo fonts
+│   ├── screenshots/        # Still interface captures
+│   ├── demos/              # Animated gameplay previews
 │   ├── game_background.png
 │   └── scores.db           # SQLite database (created on first run)
 ├── application.py          # Main game loop, UI screens, database layer
